@@ -1,0 +1,48 @@
+
+.foodimage {
+  /* width: 100%;
+  position: relative;
+  top: 0px;
+  background-image: url("./foodI.png"); 
+/* box-shadow: 0 0 10px #ccc5c533;
+  background-repeat: no-repeat;    */
+ /* background-position: center;
+   background-size:cover ;  */
+object-fit: cover; 
+  height: 200px; 
+  color: aliceblue;
+ 
+  background-image: url("./foodI.png"); 
+
+
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(194, 186, 186);
+  line-height: 2rem;
+  /* transform: rotateZ('-5deg') translateY(-4rem) translateX(-1rem); */
+  background-color: rgb(44, 27, 27);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+ position: relative;
+ padding-top: 4px;
+ top: 50px;
+ box-shadow: 0 0 10px rgb(46, 1, 1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(78, 5, 5, 0.945);
+  height: 3.5rem;
+  position: sticky;
+}
+

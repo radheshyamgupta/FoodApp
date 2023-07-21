@@ -1,0 +1,39 @@
+
+.header  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1000; 
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: sticky;
+}
+.left{
+    font-weight: 700;
+    font-size: 25px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(192, 10, 10);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    padding: 0 6px 0 6px;
+}
+.header .right .zero{
+text-align: center;
+width: 20px;
+height: 1.2rem;
+border-radius: 20px;
+background-color: rgb(146, 8, 8);
+}
