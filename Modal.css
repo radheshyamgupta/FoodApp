@@ -1,33 +1,43 @@
-/* modal.css */
+
 .modal {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 100vh;
-
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0  , 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .modal-content {
+  .modal-content { 
+  
     background-color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    height: 150px;
-    
+    scroll-behavior: smooth;
+    width: 40%;
+    max-height: 400px; /* Set a fixed maximum height for the content */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows the container */
   }
+  
   .modal-content button{
-    /* padding-bottom:  10px; */
-    width: 60px;
-    height: 20px;
-    margin:10px;
-    background-color: rgba(80, 6, 6, 0.856);
-    color: white; outline: none;
+ 
+  
+    width: 80px;
+    height: 25px;
+    margin:10px ;
+    background-color: rgba(110, 4, 4, 0.856);
+    color: rgb(224, 218, 218);
+     outline: none;
     border: none;
     border-radius: 5px;
+  }
+  .buttonstyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
